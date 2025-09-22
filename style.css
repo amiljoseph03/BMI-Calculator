@@ -54,3 +54,49 @@ button:hover {
     width: 250px;
     text-align: center;
 }
+
+/* ....  */
+
+
+
+
+
+
+
+
+
+
+.meter {
+  position: relative;
+  width: 200px;
+  height: 100px; 
+  margin: 30px auto;
+  overflow: hidden;
+}
+.arc {
+  position: absolute;
+  top: 0;  
+  left: 0;
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%;
+  background: conic-gradient(
+    #4fc3f7 0deg 45deg,    
+    #81c784 45deg 90deg,   
+    #ffb74d 90deg 135deg,  
+    #e57373 135deg 180deg  
+  );
+  transform: rotate(-90deg); 
+}
+
+.needle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  height: 90px;
+  background: black;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease;
+}
