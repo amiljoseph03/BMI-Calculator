@@ -63,9 +63,6 @@ button:hover {
 
 
 
-
-
-
 .meter {
   position: relative;
   width: 200px;
@@ -99,4 +96,16 @@ button:hover {
   transform-origin: bottom center;
   transform: rotate(0deg);
   transition: transform 0.5s ease;
+}
+
+
+input {
+    width: 100%;             
+    padding: 10px 12px;       
+    margin-bottom: 15px;      
+    border: 1px solid #ccc;    
+    border-radius: 8px;       
+    font-size: 10px;           
+    box-sizing: border-box;    
+    transition: border-color 0.3s, box-shadow 0.3s; 
 }

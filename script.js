@@ -16,19 +16,19 @@ function calculate() {
     if (bmi < 18.5) {
         category = "Underweight";
          categoryText.style.color = '#4fc3f7'; 
-        angle = -90; 
+        angle = -80; 
     } else if (bmi >= 18.5 && bmi < 25) {
         category = "Normal";
         categoryText.style.color = '#81c784';
-        angle = -45;
+        angle = -40;
     } else if (bmi >= 25 && bmi < 30) {
         category = "Overweight";
          categoryText.style.color = '#ffb74d';
-        angle = 0;
+        angle = 5;
     } else {
         category = "Obese";
          categoryText.style.color = '#e57373';
-        angle = 45; 
+        angle = 65; 
 
     }
 
