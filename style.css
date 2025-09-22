@@ -9,15 +9,15 @@ body{
     align-items: center;
     justify-content: center;
     gap: 80px;
-    height: 100vh; /* fills the screen */
+    height: 100vh; 
 }
 
 .image img{
-    height: 350px; /* fixed size so it aligns better */
+    height: 350px; 
     width: auto;
 }
 .result img{
-    height: 150px; /* fixed size so it aligns better */
+    height: 150px;
     width: auto;
    
 }
@@ -54,4 +54,3 @@ button:hover {
     width: 250px;
     text-align: center;
 }
-

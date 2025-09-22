@@ -30,7 +30,7 @@
         <label for="height">Height</label><br><br>
         <input type="number" name="" id="height"><br><br>
 
-        <button onclick="calculate()"> Clculate</button>
+        <button onclick="calculate(event)"> Clculate</button>
 
        </form> 
 
@@ -44,19 +44,37 @@
         <h3 id="bmicategory"></h3>
 
         
-    <div class="indicator">
-  <div class="scale">
-    <span>Underweight</span>
-    <span>Normal</span>
-    <span>Overweight</span>
-    <span>Obese</span>
+<div class="indicator">
+  <div class="bar">
+    <div class="under"></div>
+    <div class="normal"></div>
+    <div class="over"></div>
+    <div class="obese"></div>
   </div>
   <div class="marker" id="marker"></div>
 </div>
 
+
     </div>
+
+<!-- <div class="meter">
+  <div class="arc">
+    <div class="segment under"></div>
+    <div class="segment normal"></div>
+    <div class="segment over"></div>
+    <div class="segment obese"></div>
+  </div>
+  <div class="needle" id="needle"></div>
+</div> -->
+
+
+<div class="meter">
+  <div class="arc"></div>
+  <div class="needle" id="needle"></div>
+</div>
 
 
 </body>
+<script src="script.js"></script>
 
 </html>
