@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-CALCULATOR</title>
+   
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="main">
+        <div class="image">
+        <img src="./images/img1.jpg" alt="">
+    </div> 
+
+
+    <div class="form-container">
+
+    
+        <form action="bmi">
+        <h1>BMI Calulator</h1>
+        <label for="Age">Age</label><br><br>
+        <input type="number" name="" id="age"><br><br>
+
+        <label for="weight">Weight</label><br><br>
+        <input type="number" name="" id="weight"><br><br>
+
+        <label for="height">Height</label><br><br>
+        <input type="number" name="" id="height"><br><br>
+
+        <button onclick="calculate()"> Clculate</button>
+
+       </form> 
+
+    </div>
+
+
+    <div class="result">
+        <h3>results</h3>
+        <img src="./images/img3.jpg" alt="">
+        <h3 id="bmivalue"></h3>
+        <h3 id="bmicategory"></h3>
+
+        
+    <div class="indicator">
+  <div class="scale">
+    <span>Underweight</span>
+    <span>Normal</span>
+    <span>Overweight</span>
+    <span>Obese</span>
+  </div>
+  <div class="marker" id="marker"></div>
+</div>
+
+    </div>
+
+
+</body>
+
+</html>
